@@ -130,4 +130,3 @@ pickOnlyOne().then(console.log)
 
 
 
-/**/
