@@ -54,14 +54,14 @@ doSomething2(add);
 실행가기 위해서는 함수를 호출해야 한다. 
 함수를 호출하기 위해서는 함수선언에 정의된 인자 값을 전달하며 호출해야 한다. 
 함수의 이름은 함수를 가르키는 함수 자체가 된다. 
-doSomething3(); 인자를 적어주지 않으면 함수 자체를 전달한다. 
+doSomething3(); 인자를 적어주지 않으면 함수 자체를 전달한다.
 */
 function doSomething3(add, a, b){
 const result1 = add(a, b);
 console.log('개조한 것'+result1);
 }
-//함수를 선언하기만 하면 
+
 
 doSomething3(add, 1,5);
-
+const a = document.getElementById()
 
