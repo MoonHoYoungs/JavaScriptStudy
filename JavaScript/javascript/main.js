@@ -4,21 +4,21 @@
 
 
 //변수 number, string, boolean, null, undefined
-let age =2; //number타입
+let age = 2; //number타입
 let num = '2'; //string타입
 
 //전역변수로 선언하면 바로 메모리가 할당된다. 
 let age2 = age; //age에 있는 값을 그대로 가져다가 할당한다. 
 
-age=4
+age = 4
 //object란 최소 2가지의 값을 할당받은 것 위에 변수라고 말한 것을 제외한 모든 객체
 
 //object
 
 let obj = {
-name : 'ellie', 
-age : 5
-//name와 age에 각각 메모리(공간)이 할당되어 ellie와 5라는 값이 들어간다. 
+  name: 'ellie',
+  age: 5
+  //name와 age에 각각 메모리(공간)이 할당되어 ellie와 5라는 값이 들어간다. 
 };
 
 console.log(obj.name);
@@ -35,7 +35,7 @@ object는 그 주소가 복사되어서 들어온다.
 즉 obj에는 name와 age라는 주소(레퍼런스:reference) 가 할당이 된다. 
 */
 
-obj.name ='james';
+obj.name = 'james';
 
 console.log('--------');//--------
 console.log(obj2.name);//james

@@ -77,7 +77,7 @@ const cook = egg => new Promise((resolve, reject) => resolve(`${egg} => 치킨`)
 getHen()
     .then(getEgg)
     //에러가 나는 곳에 catch를 작성하여 오류에 대처할 수 있다. 
-    .catch(error =>{return '빵';})
+    .catch(error => { return '빵'; })
     .then(cook)
     .then(console.log)
     .catch(console.log);

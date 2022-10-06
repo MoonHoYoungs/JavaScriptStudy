@@ -9,9 +9,9 @@ function doSomething(/*함수에서 절달하거나 전달 받을 인자*/) {
 // 아무것도 전달하지 않고 기능만 하는 함수 doSomething
 
 
-function add(a, b) { 
-/* 타 언어의 경우  a : number, b:number 이런식으로 타입을 지정해 줘야 한다.
-하지만 JavaScript는 타입을 지정해주지 않는 언어*/ 
+function add(a, b) {
+    /* 타 언어의 경우  a : number, b:number 이런식으로 타입을 지정해 줘야 한다.
+    하지만 JavaScript는 타입을 지정해주지 않는 언어*/
     const sum = a + b;
     return sum;
 }
@@ -21,13 +21,13 @@ function add(a, b) {
 //함수 호출
 doSomething();
 //add(1,2);
-const result = add(2,3); 
-console.log(add(1,2)); //3 출력
+const result = add(2, 3);
+console.log(add(1, 2)); //3 출력
 console.log(result); // 5 출력
 
 /*JavaScript는 ui적 요소가 없다.*/
 
-function doSomething1(add){
+function doSomething1(add) {
     console.log(add);
 }
 // doSomething1(add);
@@ -37,10 +37,10 @@ function doSomething1(add){
 */
 
 //최종적으로 
-function doSomething2(add){
-console.log(add);
-const result1 = add(2, 3); 
-console.log(result1);
+function doSomething2(add) {
+    console.log(add);
+    const result1 = add(2, 3);
+    console.log(result1);
 }
 
 doSomething2(add);
@@ -56,12 +56,12 @@ doSomething2(add);
 함수의 이름은 함수를 가르키는 함수 자체가 된다. 
 doSomething3(); 인자를 적어주지 않으면 함수 자체를 전달한다.
 */
-function doSomething3(add, a, b){
-const result1 = add(a, b);
-console.log('개조한 것'+result1);
+function doSomething3(add, a, b) {
+    const result1 = add(a, b);
+    console.log('개조한 것' + result1);
 }
 
 
-doSomething3(add, 1,5);
-const a = document.getElementById()
+doSomething3(add, 1, 5);
+
 

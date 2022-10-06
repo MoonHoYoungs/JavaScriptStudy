@@ -8,7 +8,7 @@ class Counter {
                 object를 만드는 순간 자동으로  0으로 초기화 된다. 
         */
         this.callback = runEveryFiveTimes
-    
+
     }
     increase(/*rubIf5Times라는 매개변수가 있었음. */) {
         this.counter++;
@@ -28,7 +28,7 @@ class Counter {
             &&는 양쪽 모두 ture 여야 true
 
             이렇게 if문을 쓰지 않고 깔끔하게 코드 작성이 가능하다. */
-           //this.callback(this.counter); 위 코드의 추가로 주석
+            //this.callback(this.counter); 위 코드의 추가로 주석
 
         }
         /* increase 메소드는 rubIf5Times를 매개 변수로 삼아. 
@@ -94,11 +94,11 @@ coolCounter.increase();  // 10 yo! 10
 
 
 const kim = {
-    name : 'kim',
-    first : 10,
-    second : 10,
+    name: 'kim',
+    first: 10,
+    second: 10,
 
-    sum : function(f, s){
+    sum: function (f, s) {
         return this.first + this.second
     }
 }
