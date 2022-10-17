@@ -1,0 +1,52 @@
+div,
+span {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+
+
+/* display를 이용해서 block과 inline을 바꾸 줄 수 있다. 
+div는 안에 값이 없어 그냥 inline로 하면 사라진다. */
+div {
+    background: red;
+    left: 20px;
+    top: 20px;
+    margin-bottom: 20px;
+}
+
+/* display:는 타입을 지정할 수 있다.  
+inline는  위에서 정의한 width나 height
+등을 무시하고 안에 들어있는 내용물에 맞춰 변화
+iinline-block은 상자 단위로 적용된다.  
+
+*/
+span {
+    background: blue;
+
+}
+
+
+.container {
+    background: yellow;
+    display: block;
+    left: 20px;
+    top: 20px;
+    position: relative;
+}
+
+.box {
+    background: blue;
+    display: block;
+    left: 20px;
+    top: 20px;
+    position: absolute;
+}
+
+/* 
+position의 item들  기본값은 
+relative는 원래 있어야 하는 item에서 옮겨간것
+absolute는 내 item이 담겨있는 상자 안에서 옮겨다닌다.
+fixed는 상자 밖에서 움직인다. 
+sticky는 원래 있어야 되는 자리에 있으며 스크롤링 되어도 없어지지 않음. 
+*/
